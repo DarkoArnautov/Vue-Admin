@@ -1,0 +1,22 @@
+# CDT Back End
+
+## Build Setup
+
+Install node package dependancies and php.
+
+```bash
+npm install
+npm run dev
+```
+
+We should install the latest version of php.
+At least, it should be higher than 7.2
+I prefer 7.3 version of PHP.
+
+Then, we can run backend project with the following command:
+
+```bash
+php artisan serve
+```
+
+## Deploy this project on ubuntu

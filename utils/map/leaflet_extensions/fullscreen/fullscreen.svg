@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26 52" width="26" height="52">
+	<defs>
+		<image width="6" height="6" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAGAQMAAADaAn0LAAAAAXNSR0IB2cksfwAAAAZQTFRF////QEBAo/1QKwAAAAJ0Uk5T/wDltzBKAAAADklEQVR4nGOwYYBAIAAAB4wA8dmc2FgAAAAASUVORK5CYII="/>
+		<image width="6" height="6" id="img2" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAGAQMAAADaAn0LAAAAAXNSR0IB2cksfwAAAAZQTFRFQEBA////aWaVxQAAAAJ0Uk5TAP9bkSK1AAAAD0lEQVR4nGPgYYDAPwx/AAV8Ail3s5iwAAAAAElFTkSuQmCC"/>
+		<image width="6" height="6" id="img3" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAGAQMAAADaAn0LAAAAAXNSR0IB2cksfwAAAANQTFRF/5ILzUc4JwAAAAtJREFUeJxjYEAAAAAMAAF8TETCAAAAAElFTkSuQmCC"/>
+		<image width="6" height="6" id="img4" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAGAQMAAADaAn0LAAAAAXNSR0IB2cksfwAAAAZQTFRF////QEBAo/1QKwAAAAJ0Uk5T/wDltzBKAAAADklEQVR4nGNgAAIbCAQAA8wA8TAyt44AAAAASUVORK5CYII="/>
+		<image width="6" height="6" id="img5" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAGAQMAAADaAn0LAAAAAXNSR0IB2cksfwAAAAZQTFRF////QEBAo/1QKwAAAAJ0Uk5T/wDltzBKAAAADklEQVR4nGNgAIIPEAgADwwDwVvo0FUAAAAASUVORK5CYII="/>
+		<image width="6" height="6" id="img6" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAGAQMAAADaAn0LAAAAAXNSR0IB2cksfwAAAAZQTFRF/5ILQEBAy1tiJwAAAAJ0Uk5T/wDltzBKAAAADklEQVR4nGOwYYBAIAAAB4wA8dmc2FgAAAAASUVORK5CYII="/>
+		<image width="6" height="6" id="img7" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAGAQMAAADaAn0LAAAAAXNSR0IB2cksfwAAAAZQTFRFQEBA/5ILA+W2KgAAAAJ0Uk5TAP9bkSK1AAAAD0lEQVR4nGPgYYDAPwx/AAV8Ail3s5iwAAAAAElFTkSuQmCC"/>
+		<image width="6" height="6" id="img8" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAGAQMAAADaAn0LAAAAAXNSR0IB2cksfwAAAAZQTFRF/5ILQEBAy1tiJwAAAAJ0Uk5T/wDltzBKAAAADklEQVR4nGNgAAIbCAQAA8wA8TAyt44AAAAASUVORK5CYII="/>
+		<image width="6" height="6" id="img9" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAGAQMAAADaAn0LAAAAAXNSR0IB2cksfwAAAAZQTFRF/5ILQEBAy1tiJwAAAAJ0Uk5T/wDltzBKAAAADklEQVR4nGNgAIIPEAgADwwDwVvo0FUAAAAASUVORK5CYII="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="layer1">
+		<use id="rect15634" href="#img1" x="5" y="15" />
+		<use id="path15639" href="#img2" x="15" y="15" />
+		<use id="rect15653" href="#img3" x="10" y="36" />
+		<use id="path16059" href="#img4" x="5" y="5" />
+		<use id="path16061" href="#img5" x="15" y="5" />
+		<use id="path16063" href="#img6" x="5" y="41" />
+		<use id="path16065" href="#img7" x="15" y="41" />
+		<use id="path16067" href="#img8" x="5" y="31" />
+		<use id="path16069" href="#img9" x="15" y="31" />
+	</g>
+</svg>

@@ -1,0 +1,20 @@
+// Import and define Vuetify color theme
+// https://vuetifyjs.com/en/style/colors
+@import '~vuetify/src/styles/settings/_colors';
+
+$theme: (
+    primary:     '#005588',
+    accent:      '#01A3E5',
+    secondary:   map-get($grey, 'lighten-1'),
+    info:        map-get($blue, 'lighten-1'),
+    warning:     map-get($amber, 'darken-2'),
+    error:       map-get($red, 'accent-4'),
+    success:     map-get($green, 'lighten-2'),
+);
+
+// Import Vuetify styling
+@import '~vuetify/src/styles/main';
+
+.page {
+    @extend .fade-transition
+}

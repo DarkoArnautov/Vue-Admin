@@ -1,0 +1,67 @@
+# CDT Front End
+
+## Build Setup
+
+Install the dependancies and run.
+
+```bash
+cd project-name
+npm install
+npm start dev
+```
+
+## Using Pm2 To Run Our App
+
+Firt, start by running this commands to install pm2.
+
+```bash
+npm install pm2 -g
+```
+
+Then, run out app.
+
+```bash
+pm2 start npm -- dev
+```
+
+## Using Nginx As A Reverse Proxy For Our App
+
+First, install nginx
+
+```bash
+sudo apt-get update
+sudo apt-get install nginx
+```
+
+We need to edit the nginx configuration file to connect to our app. 
+Configuration file path: /etc/nginx/sites-available/default
+
+```bash
+server {
+	listen 80;
+	listen [::]:80;
+	index index.html index.htm;
+	access_log /var/log/nginx/[project_domain].access.log;
+	access_log /var/log/nginx/[project_domain].error.log;
+	
+	server_name: [project_domain];
+	charset utf-8;
+	client_max_body_size 32m;
+	
+	location / {
+		proxy_pass http://localhost:3000;
+		proxy_http_version 1.1;
+		proxy_set_header Upgrade $http_upgrade;
+		proxy_set_header Connection 'upgrade';
+		proxy_set_header Host $host;
+        proxy_cache_bypass $http_upgrade;
+	}
+}
+```
+
+You can confirm that your configuration is correct with following command:
+```bash
+nginx -t
+```
+
+Now that everything is setup restart nginx and visit your site on the browser.
